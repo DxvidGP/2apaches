@@ -1,0 +1,36 @@
+services:
+  david-gateway:
+    image: nginx:stable-alpine
+    container_name: gateway-david
+    ports:
+      - "8080:80"
+    volumes:
+      - ./david-config.conf:/etc/nginx/nginx.conf:ro
+      - david_cache:/var/cache/nginx
+    depends_on:
+      - david-node-1
+      - david-node-2
+    networks:
+      - xarxa-david
+
+  david-node-1:
+    image: httpd:alpine
+    container_name: servidor-david-1
+    volumes:
+      - ./dades-david:/usr/local/apache2/htdocs/
+    networks:
+      - xarxa-david
+
+  david-node-2:
+    image: httpd:alpine
+    container_name: servidor-david-2
+    volumes:
+      - ./dades-david:/usr/local/apache2/htdocs/
+    networks:
+      - xarxa-david
+
+networks:
+  xarxa-david:
+
+volumes:
+  david_cache:
