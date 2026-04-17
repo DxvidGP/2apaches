@@ -13,3 +13,10 @@
 > **Nginx:** <img width="1027" height="528" alt="image" src="https://github.com/user-attachments/assets/dce05ef6-dd2e-4f51-b224-cf9e815f5573" />
 >
 > **HTML:** <img width="547" height="902" alt="image" src="https://github.com/user-attachments/assets/0f4fc56b-fdd2-4d98-8c31-43ee9de16af1" />
+>
+> **Logs de servidor1 y servidor2:**
+> <img width="1557" height="683" alt="image" src="https://github.com/user-attachments/assets/55ec4842-9d12-41c3-a2c0-a892483c5ad6" />
+> <img width="1662" height="937" alt="image" src="https://github.com/user-attachments/assets/bd04e7d3-29a6-4c2c-9428-53366820fa27" />
+>
+> 
+> 
